@@ -5,6 +5,9 @@ const settings = require('./settings');
 const hlp = require('../lib/helper');
 const db = require("../lib/db");
 
+
+hlp.sendWebHookToHomeAssistant("ONLINE","script.ups_check_online");
+
 const DB = new db();
 
 

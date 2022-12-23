@@ -52,6 +52,12 @@ module.exports = {
         MAC:"00-11-32-D2-B7-B8"
     },
 
+    HomeAssistant : {
+        url : "http://192.168.0.151:8123/",
+        webhookUri: "api/webhook/",
+        code : "103-controllo-stato-ups-rack-lavanderia-xxLfvZpXIJj7FjfXt74yBoaZ"
+    },
+
     command:{
         stopCiabatta:"/home/pi/domotica/CiabattaRack/switchOff.sh",
         startCiabatta:"/home/pi/domotica/CiabattaRack/switchOn.sh",

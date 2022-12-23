@@ -6,6 +6,10 @@ const settings = require('./settings');
 const hlp = require('../lib/helper');
 const db = require("../lib/db");
 
+
+
+hlp.sendWebHookToHomeAssistant("ONBATT","script.ups_check_onbatt");
+
 const DB = new db();
 Sdb = new SynoDB();
 
