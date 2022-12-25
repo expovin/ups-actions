@@ -65,7 +65,7 @@ module.exports = {
         startNanoGate:"etherwake -i eth0 DA:6F:9A:B2:17:79",
         stopSyno:"echo .",
         startSyno:"etherwake -i eth0 00-11-32-D2-B7-B8",
-        getUPSStatus:"upsc tecnoware"
+        getUPSStatus:"/Users/ves/data/apiService/lib/upsc tecnoware"
     },
     
     /** Tepo dopo il quale vengono spenti gli appliance   */
